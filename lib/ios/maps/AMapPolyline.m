@@ -74,7 +74,7 @@
 
 - (void)setDashed:(BOOL)dashed {
     _dashed = dashed;
-    _renderer.lineDash = dashed;
+//    _renderer.lineDash = dashed; // commented out by zhiyong yang
 }
 
 - (void)setGradient:(BOOL)gradient {
@@ -99,7 +99,7 @@
         _renderer.lineWidth = _width;
         _renderer.strokeColor = _color;
         _renderer.strokeColors = _colors;
-        _renderer.lineDash = _dashed;
+//        _renderer.lineDash = _dashed; // comment out by zhiyong.yang
         _renderer.gradient = _gradient;
     }
     return _renderer;
