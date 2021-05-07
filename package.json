@@ -30,8 +30,7 @@
     "android": "npx react-native  run-android",
     "release-android": "npx react-native run-android --variant=release",
     "reload": "adb reverse tcp:8081 tcp:8081 && adb shell input text rr",
-    "ios": "npx react-native run-ios",
-    "postinstall": "tsc"
+    "ios": "npx react-native run-ios"
   },
   "devDependencies": {
     "@react-native-community/masked-view": "^0.1.10",
